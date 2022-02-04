@@ -1,11 +1,11 @@
 
 
-===================== PRIMEIROS PASSOS =====================
+===================== PRIMEIROS PASSOS ==========================
 
 1 - Criar um pasta em um qualquer local.
 2 - Clicar com o botão direito e clicar em Git Bash Here.
 
-=================== INITIAL COMMAND CODES =======================
+===================== PRIMEIROS COMANDOS =======================
 
 1 - git init - inicia um repositório GIT.
 2 - git status - verifica alterações no repositório.
@@ -43,5 +43,16 @@
 =================== TRABALHANDO COM BRANCHES ==========================
 
 1 - git branch - exibe as branches disponíveis.
-2 - git branch "nome da branch" - cria uma nova branch.
+2 - git branch "nome da branch" - cria uma nova branch vazia.
+
+2.1 - git branch -b "nome da branch a ser criada" "nome da brach base" - cria uma branch e passar todos os arquivos da brach de origem para nova branch.
+
 3 - git checkout "nome da branch" - seleciona a branch para envio de alterações.
+
+
+======================== UNINDO BRANCHES ===============================
+
+0 - git pull - puxar as atualizações antes de fazer o merge.
+1 - git checkout "nome da branch" - seleciona a branch que receberar as atualizações.
+2 - git merge "nome da branch" - seleciona a branch de onve vai ser puxada as atualizações.
+3 - git push.
