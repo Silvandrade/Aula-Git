@@ -56,3 +56,8 @@
 1 - git checkout "nome da branch" - seleciona a branch que receberar as atualizações.
 2 - git merge "nome da branch" - seleciona a branch de onve vai ser puxada as atualizações.
 3 - git push.
+
+
+======================= IGNORAR ARQUIVOS ==============================
+
+1 - touch .gitignore - cria um arquivo gitignore depois é só abrir o arquivo com o editor de texto e escrever os nome dos arquivos e pastas que devem ser ignorados.
