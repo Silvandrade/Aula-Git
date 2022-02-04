@@ -1,0 +1,12 @@
+
+
+================= PRIMEIROS PASSOS =====================
+
+1 - Criar um pasta em um qualquer local.
+2 - Clicar com o botão direito e clicar em Git Bash Here.
+
+=================== COMMAND CODES =======================
+
+1 - git init.
+
+
