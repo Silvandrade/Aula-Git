@@ -7,6 +7,16 @@
 
 =================== COMMAND CODES =======================
 
-1 - git init.
+1 - git init - inicia um repositório GIT.
+2 - git status - verifica alterações no repositório.
+3 - git add "nome completo do arquivo" - adiciona um arquivo ao repositório.
+4 - git add . - adiciona todos os arquivos.
+5 - git commit -m "digite uma mensagem" - salva todas as alterações do repositório.
 
+5.1 - git config --global user.email "seu email" - se for a primeira vez que está usando o git no computador.
+5.2 - git config --global user.name "seu nome" - se for a primeira vez que está usando o git no computador.
 
+6 - git remote add origin "url do repositório" - define qual repositório da núvem as alterações serão enviadas.
+7 - git push - envia todos os arquivos do repositório local para a núvem do GitHub.
+
+7.1 - git push --set-upstream origin master - define qual branches da núvem as alterações serão enviadas se for a primeira vez.
