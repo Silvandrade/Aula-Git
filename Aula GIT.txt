@@ -1,11 +1,11 @@
 
 
-================= PRIMEIROS PASSOS =====================
+===================== PRIMEIROS PASSOS =====================
 
 1 - Criar um pasta em um qualquer local.
 2 - Clicar com o botão direito e clicar em Git Bash Here.
 
-=================== COMMAND CODES =======================
+=================== INITIAL COMMAND CODES =======================
 
 1 - git init - inicia um repositório GIT.
 2 - git status - verifica alterações no repositório.
@@ -20,3 +20,28 @@
 7 - git push - envia todos os arquivos do repositório local para a núvem do GitHub.
 
 7.1 - git push --set-upstream origin master - define qual branches da núvem as alterações serão enviadas se for a primeira vez.
+
+
+=================== PRIMEIRAS ALTERAÇÕES ===========================
+
+1 - git status
+2 - git add
+3 - git commit -m "mensagem"
+4 - git push
+
+
+================== HISTÓRICO DE ALTERAÇÕES ===========================
+
+1 - git reflog - exibe o histórico de alterações.
+
+
+==================== RESTAURAR UMA VERSÃO ============================
+
+1 - git reset --hard codigo_da_versao_exibido_no_histórico - restaura os arquivos para o commit selecionado.
+
+
+=================== TRABALHANDO COM BRANCHES ==========================
+
+1 - git branch - exibe as branches disponíveis.
+2 - git branch "nome da branch" - cria uma nova branch.
+3 - git checkout "nome da branch" - seleciona a branch para envio de alterações.
